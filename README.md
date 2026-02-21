@@ -13,15 +13,15 @@ pip install pandas python-dateutil
 
 ## Data
 
-Place your CSVs in **`PRSRC Data Lock 2.20.26-selected/`**. The Subject table must be **`Subject(1).csv`** with columns `SubjectId` and `BirthDate`.
+Place your CSVs (which originally is called `PRSRC Data Lock 2.20.26-selected/` on the box folder) in **`data/`** (basically renamed for easy understanding). The Subject table must be **`Subject(1).csv`** with columns `SubjectId` and `BirthDate`.
 
 ## Scripts
 
 ### 1. Remove sites — `remove_site_column.py`
 
-- **Input:** All CSVs in `PRSRC Data Lock 2.20.26-selected/`
+- **Input:** All CSVs in `data/`
 - **Action:** Keeps only rows where `Site` is **not** in `[5, 6, 16, 17, 19, 29]`. Site column is kept.
-- **Output:** `PRSRC Data Lock 2.20.26-selected/removed_sites/`
+- **Output:** `data/removed_sites/`
 
 ```bash
 python remove_site_column.py
@@ -37,7 +37,7 @@ python remove_site_column.py
 python deidentify_age_years.py
 ```
 
-By default it reads from `PRSRC Data Lock 2.20.26-selected`. To run on `removed_sites` instead, call from Python:
+By default it reads from `data`. To run on `removed_sites` instead, call from Python:
 
 ```python
 from deidentify_age_years import convert_date_columns_to_age_years, path
@@ -59,4 +59,5 @@ streamlit run app.py
 1. Run `remove_site_column.py` → get `removed_sites/`.
 2. (Optional) Run `deidentify_age_years.py` on `removed_sites` → get `removed_sites/age_years/`.
 3. (Optional) Run `streamlit run app.py` to query and merge tables interactively.
+
 # PRSRC_eda
