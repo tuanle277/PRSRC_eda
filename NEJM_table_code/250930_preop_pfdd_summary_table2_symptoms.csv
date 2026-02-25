@@ -1,0 +1,19 @@
+Symptom,PresentBaseline,Resolved,Improved,Stable,Worse,Unknown,Not Applicable,Group,TotalCounted,equal
+Preop_Headache,52,18,9,6,11,8,0.0,PFDD,52,True
+Preop_DoubleVision,4,1,0,0,0,3,0.0,PFDD,4,True
+Preop_SensorySymptoms,27,12,3,4,1,7,0.0,PFDD,27,True
+Preop_WeaknessSymptoms,10,3,1,4,0,2,0.0,PFDD,10,True
+Preop_Dysphagia,9,6,1,0,0,2,0.0,PFDD,9,True
+Preop_Hoarseness_y,2,1,0,0,0,1,0.0,PFDD,2,True
+Preop_Choking,2,1,0,0,0,1,0.0,PFDD,2,True
+Preop_SleepApnea,4,1,0,0,0,3,0.0,PFDD,4,True
+Preop_ShortnessOfBreath,3,1,0,1,0,1,0.0,PFDD,3,True
+Preop_NeckPain,26,11,1,4,2,8,0.0,PFDD,26,True
+Preop_BackPain,20,7,4,1,0,8,0.0,PFDD,20,True
+Preop_TrunkPain,5,2,0,1,0,2,0.0,PFDD,5,True
+Preop_UpperExtremityPain,5,3,1,1,0,0,0.0,PFDD,5,True
+Preop_LowerExtremityPain,4,3,0,1,0,0,0.0,PFDD,4,True
+Preop_Tremors,3,1,1,0,0,1,0.0,PFDD,3,True
+Preop_BalanceOrGaitAtaxia,17,7,3,1,1,5,0.0,PFDD,17,True
+Preop_Incontinence,9,4,2,1,0,2,0.0,PFDD,9,True
+Preop_SexualDysfunction,0,0,0,0,0,0,0.0,PFDD,0,True
